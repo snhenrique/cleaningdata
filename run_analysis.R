@@ -153,7 +153,7 @@ AllData <- AllData %>% arrange(subject,desc(activity))
 fwrite(x = AllData, file = "TidyData.csv", quote = FALSE, na="NA",
        row.names=FALSE)
 
-## program end
+## program end - evaluated
 
             
 

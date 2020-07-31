@@ -129,7 +129,7 @@ TestData <- cbind(TestSubject,TestActivity,TestDataSet)
 
 # Bind test and train data sets 
 
-AllData <- rbind(AllTrainData,AllTestData)
+AllData <- rbind(TrainData,TestData)
 
 
 # set subject and activity as factor and set activities to their names instead 
